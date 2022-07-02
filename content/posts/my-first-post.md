@@ -41,4 +41,4 @@ git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth
 另外，文章中的`draft`值应该改为`false`，否则会被认为是草稿，不会被展示。
 
 #### 预览站点
-`hugo server -D`
+`hugo server -D`就可以直接边改边看
