@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
+    <link>https://hydroletter.github.io/blog/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 Jul 2022 11:14:50 +0800</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Jul 2022 11:14:50 +0800</lastBuildDate><atom:link href="https://hydroletter.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>http://example.org/posts/my-first-post/</link>
+      <link>https://hydroletter.github.io/blog/posts/my-first-post/</link>
       <pubDate>Sat, 02 Jul 2022 11:14:50 +0800</pubDate>
       
-      <guid>http://example.org/posts/my-first-post/</guid>
+      <guid>https://hydroletter.github.io/blog/posts/my-first-post/</guid>
       <description>为什么使用hugo 尝试过hexo搭建，但是对环境的要求比hugo跟高，相对繁琐。昨天发现hugo，搭建流程非常丝滑，遂选之。
 搭建流程 这次搭建发现了GitHub的桌面端，很好。因为管理静态网站的操作比较简单，相较于用命令行管理仓库，桌面端的图形化操作效率更高，所以这是一个有意义的发现。
 总体的流程就是，先通过桌面端直接将远程仓库克隆到本地，然后在本地直接创建hugo站点，然后通过桌面端push到远程。
@@ -24,7 +24,7 @@
 设置主题 比较了多种方法之后，认为git命令直接下载的方法最好，手动安装需要重命名和修改设定文件，比较麻烦
 git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth=1 然后在config.yml文件中加一行theme: &amp;quot;PaperMod&amp;quot;
 创建文章 在根目录下输入命令： hugo new post/xxx.md 这里有两个注意点，一方面必须要在post文件夹中创建，另一方面文件后缀为.md。 另外，文章中的draft值应该改为false，否则会被认为是草稿，不会被展示。
-预览站点 hugo server -D</description>
+预览站点 hugo server -D就可以直接边改边看</description>
     </item>
     
   </channel>
